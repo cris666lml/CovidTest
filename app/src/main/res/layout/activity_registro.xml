@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutCompat2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:textColor="@color/azul"
+        android:textSize="40dp"
+        android:paddingTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:paddingTop="150dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="30dp"
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Rut (xxxxxxxx-x)"
+               android:textColor="@color/azul"
+               android:textSize="20dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:background="@drawable/barralarga"
+                android:inputType="text"
+                android:maxLength="10"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                android:background="@drawable/lazul" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre completo"
+                android:textColor="@color/azul"
+                android:textSize="20dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:background="@drawable/barralarga"
+                android:inputType="text"
+                android:maxLength="30"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                android:background="@drawable/lazul" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edad"
+                android:textColor="@color/azul"
+                android:textSize="20dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:background="@drawable/barralarga"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                android:background="@drawable/lazul" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Genero"
+                android:textColor="@color/azul"
+                android:textSize="20dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:background="@drawable/barralarga"
+                android:inputType="text"
+                android:maxLength="30"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                android:background="@drawable/lazul" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teléfono"
+                android:textColor="@color/azul"
+                android:textSize="20dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:background="@drawable/barralarga"
+                android:inputType="text"
+                android:maxLength="30"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                android:background="@drawable/lazul" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo electrónico"
+                android:textColor="@color/azul"
+                android:textSize="20dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:background="@drawable/barralarga"
+                android:inputType="text"
+                android:maxLength="30"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                android:background="@drawable/lazul" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contraseña"
+                android:textColor="@color/azul"
+                android:textSize="20dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:background="@drawable/barralarga"
+                android:inputType="textPassword"
+                android:maxLength="30"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="10dp"
+                android:background="@drawable/lazul" />
+
+            <CheckBox
+                android:paddingTop="20dp"
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#F44336"
+                android:text="Acepto que mi información sea almacenada y analizada con fines médicos."
+                android:textColor="@android:color/background_dark"
+                android:textColorHint="?android:attr/colorForegroundInverse" />
+
+
+            <ImageButton
+                android:paddingTop="20dp"
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/animaboton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
